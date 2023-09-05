@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesheet.css">
+    <title>Allen Sanchez - Portfolio</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: url('Shes.jpg') no-repeat center center fixed;
+            background-size: cover;
+            color: #ffffff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .container {
+            background-color: rgba(0, 0, 0, 0.8);
+            border-radius: 10px;
+            box-shadow: 0 2px 20px rgba(0, 0, 0, 0.4);
+            display: flex;
+            max-width: 1200px;
+            width: 100%;
+            margin: 20px;
+        }
+
+        .pic {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+            background-color: transparent;
+        }
+
+        .pic img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            border: 4px solid rgba(255, 255, 255, 0.4);
+        }
+
+        .info-container {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            padding: 30px;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .info-box {
+            background-color: rgba(255, 255, 255, 0.1);
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .info-box h3 {
+            margin-top: 0;
+            color: #ffffff;
+        }
+
+        .message {
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+            background-color: rgba(255, 255, 255, 0.1);
+        }
+
+        p {
+            margin: 0;
+            line-height: 1.6;
+            color: #ffffff;
+        }
+
+        /* Additional styles for the inserted message */
+        .message-box {
+            background-color: rgba(255, 255, 255, 0.1);
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="pic">
+            <img src="ProfileGG.jpg" alt="Profile Picture">
+        </div>
+        <div class="info-container">
+            <div class="header">
+                <h1>Allen Sanchez</h1>
+                <p>Bachelor Science Information Technology</p>
+            </div>
+            <div class="info">
+                <div class="info-box">
+                    <h3>About Me</h3>
+                    <div class="message">
+                        <p>Hi I'm Allen Sanchez I'm 20 years old I live a purok 4 alabang Muntinlupa City. I study at pamantasan Lungsod ng Muntinlupa pursing a Bachelor of  Science  in Information Technology. My hobby are eating singing playing games. I am also a youth leader in our community and  member of akma also known as Ang kabataan Ng Makabagong Alabang. My dreams is just to be a police officer someday</p>
+                    </div>
+                    <!-- Inserted message here -->
+                    <div class="message-box">
+                        <p><strong>"Motto"  </strong>Mag mahal Ka ng programmer error nga Di sinusukuan ikaw pa Kaya.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
